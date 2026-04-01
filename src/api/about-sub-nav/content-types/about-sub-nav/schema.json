@@ -33,6 +33,12 @@
     },
     "description": {
       "type": "blocks"
+    },
+    "Mail": {
+      "type": "enumeration",
+      "enum": [
+        "primary"
+      ]
     }
   }
 }

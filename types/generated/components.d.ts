@@ -1884,7 +1884,7 @@ export interface AtomsHeroContent extends Schema.Component {
     button: Attribute.Component<'atoms.button', true>;
     backgroundImage: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     heroTitle: Attribute.Blocks;
-    bannerVariant: Attribute.Enumeration<['primary']>;
+    bannerVariant: Attribute.Enumeration<['primary', 'secondary']>;
   };
 }
 
