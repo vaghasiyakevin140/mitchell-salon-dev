@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_atoms_design_for_men_pricings",
+  "info": {
+    "displayName": "Design For men Pricing",
+    "icon": "scissors"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "men_pricings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::men-pricing.men-pricing"
+    }
+  }
+}

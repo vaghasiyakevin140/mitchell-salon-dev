@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_stores_sections",
+  "info": {
+    "displayName": "Stores section",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "location_inners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location-inner.location-inner"
+    }
+  }
+}

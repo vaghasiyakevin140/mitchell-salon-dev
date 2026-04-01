@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_salon_pricings",
+  "info": {
+    "displayName": "Salon Pricing",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pricingBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.pricing-blocks"
+    }
+  }
+}

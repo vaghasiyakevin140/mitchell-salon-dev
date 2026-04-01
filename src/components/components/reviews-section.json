@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_reviews_sections",
+  "info": {
+    "displayName": "Reviews Section",
+    "icon": "command",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "reviewsWithVideoBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.reviews-with-video"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    }
+  }
+}

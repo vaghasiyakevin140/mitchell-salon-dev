@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_atoms_title_content_with_ctas",
+  "info": {
+    "displayName": "Title Content With Cta",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

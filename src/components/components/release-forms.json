@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_release_forms",
+  "info": {
+    "displayName": "Release Forms",
+    "icon": "filePdf",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "releaseForm": {
+      "displayName": "forms",
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.forms"
+    }
+  }
+}

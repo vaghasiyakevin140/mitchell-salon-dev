@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_categories",
+  "info": {
+    "displayName": "Package Category",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "package_inners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::package-inner.package-inner"
+    },
+    "isFilter": {
+      "type": "boolean"
+    },
+    "applyCategoryFilter": {
+      "type": "boolean"
+    }
+  }
+}

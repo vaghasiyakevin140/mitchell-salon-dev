@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_sub_nav_blocks",
+  "info": {
+    "singularName": "footer-sub-nav-block",
+    "pluralName": "footer-sub-nav-blocks",
+    "displayName": "Footer SubNav Block"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "footerSubLInks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.footer-sub-links"
+    }
+  }
+}

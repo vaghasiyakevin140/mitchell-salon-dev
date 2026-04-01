@@ -1,0 +1,104 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brides_sub_pages",
+  "info": {
+    "singularName": "brides-sub-page",
+    "pluralName": "brides-sub-pages",
+    "displayName": "Brides Sub Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "components.hero-banner",
+        "components.bridal-service-section",
+        "components.driving-social-section",
+        "components.spa-offer-card",
+        "components.testimonial-section",
+        "components.book-now",
+        "components.your-career-section",
+        "components.title-description-image-with-cta-section",
+        "components.terms-and-privacy-section",
+        "components.stores-section",
+        "components.social-info-section",
+        "components.salon-services",
+        "components.salon-pricing",
+        "components.reviews-section",
+        "components.related-package",
+        "components.related-location",
+        "components.recommended-timeline-section",
+        "components.recommendations-recap-section",
+        "components.price-packages-block",
+        "components.price-guide-section",
+        "components.prep-for-perfect-hair-section",
+        "components.package-testimonial",
+        "components.package-highlights-section",
+        "components.package-details-hero-section",
+        "components.package-about-section",
+        "components.our-services",
+        "components.our-locations-hero",
+        "components.more-beauty-packages-section",
+        "components.mitchell-services-section",
+        "components.military-and-donation-section",
+        "components.men-pricing-section",
+        "components.location-map",
+        "components.location-info-section",
+        "components.location-hero-section",
+        "components.join-us-section",
+        "components.holiday-section",
+        "components.hero-section",
+        "components.gift-cards-section",
+        "components.four-o-four-section",
+        "components.experience-section",
+        "components.excellence-section",
+        "components.corporate-discount-programme-section",
+        "components.contact-us-section",
+        "components.communities-section",
+        "components.common-hero-section",
+        "components.category",
+        "components.careers-salon-program-section",
+        "components.careers-nail-training-section",
+        "components.careers-faq-section",
+        "components.careers-family-section",
+        "components.careers-discover-section",
+        "components.careers-connection-section",
+        "components.careers-benefits-section",
+        "components.card-listening-section",
+        "components.blogof-content",
+        "components.blog-listing-section",
+        "components.blog-listing-hero",
+        "components.blog-hero",
+        "components.blog-content",
+        "components.beautiful-brides-section",
+        "components.awards-card-section",
+        "components.article-related",
+        "components.article-listing-section",
+        "components.about-us",
+        "components.service-section"
+      ]
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageDescription": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

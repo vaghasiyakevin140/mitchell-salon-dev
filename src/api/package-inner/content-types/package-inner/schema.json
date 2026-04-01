@@ -1,0 +1,107 @@
+{
+  "kind": "collectionType",
+  "collectionName": "package_inners",
+  "info": {
+    "singularName": "package-inner",
+    "pluralName": "package-inners",
+    "displayName": "Package Inner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "sectionTitle"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "priceTag": {
+      "type": "decimal"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Full Day",
+        "Half Day",
+        "Time Together",
+        "Spa"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "inDetailView"
+      ]
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "packageHeightLightsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.package-highlights-section"
+    },
+    "packageAboutSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.package-about-section"
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial",
+      "mappedBy": "package_inner"
+    },
+    "realatedPackage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.related-package"
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageDescription": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "slugCategory": {
+      "type": "enumeration",
+      "enum": [
+        "brides-packages",
+        "spa-packages"
+      ]
+    },
+    "accordion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.accordion-section"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_components_blog_contents",
+  "info": {
+    "displayName": "Blog Content",
+    "icon": "store",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "introducationText": {
+      "type": "blocks"
+    },
+    "newsLetter": {
+      "displayName": "News Letter Section",
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.news-letter-section"
+    },
+    "middleText": {
+      "type": "blocks"
+    },
+    "relatedServices": {
+      "displayName": "Related Blog Service",
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.related-blog-service"
+    },
+    "endText": {
+      "type": "blocks"
+    },
+    "authorConclusion": {
+      "displayName": "Author Conclusion ",
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.author-conclusion"
+    },
+    "shareText": {
+      "type": "text"
+    },
+    "articleShareLInks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social.links"
+    }
+  }
+}

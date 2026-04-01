@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_atoms_men_pricings",
+  "info": {
+    "displayName": "Men Pricing",
+    "icon": "typhoon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "men_pricings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::men-pricing.men-pricing"
+    },
+    "note": {
+      "type": "text"
+    }
+  }
+}

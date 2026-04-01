@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_atoms_services_blocks",
+  "info": {
+    "displayName": "Services Block",
+    "icon": "rotate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "bride_services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::bride-service.bride-service"
+    },
+    "note": {
+      "type": "text"
+    },
+    "titleInRichtext": {
+      "type": "blocks"
+    }
+  }
+}

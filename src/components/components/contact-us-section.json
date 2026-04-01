@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_contact_us_sections",
+  "info": {
+    "displayName": "Contact Us Section",
+    "icon": "phone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "blocks"
+    },
+    "Connect_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.label-links"
+    },
+    "Links": {
+      "displayName": "Title Text",
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-text"
+    }
+  }
+}

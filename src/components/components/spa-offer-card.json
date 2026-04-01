@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_spa_offer_cards",
+  "info": {
+    "displayName": "Spa Offer Card",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "imageDescriptionImageWithLabel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-description-image-with-label"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "primary"
+      ]
+    }
+  }
+}

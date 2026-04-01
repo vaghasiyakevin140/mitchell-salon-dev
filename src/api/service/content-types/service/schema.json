@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "serviceTitle": {
+      "type": "string"
+    },
+    "servicePrice": {
+      "type": "float"
+    },
+    "serviceImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "serviceButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.list"
+    }
+  }
+}

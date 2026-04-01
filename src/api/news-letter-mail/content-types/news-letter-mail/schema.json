@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_letter_mails",
+  "info": {
+    "singularName": "news-letter-mail",
+    "pluralName": "news-letter-mails",
+    "displayName": "NewsLetter Mail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "emailField": {
+      "type": "string"
+    }
+  }
+}

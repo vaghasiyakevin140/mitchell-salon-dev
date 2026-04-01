@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_atoms_services",
+  "info": {
+    "displayName": "Services",
+    "icon": "television"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "titleWithImagePriceLabel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.image-title-description-with-price-label"
+    }
+  }
+}

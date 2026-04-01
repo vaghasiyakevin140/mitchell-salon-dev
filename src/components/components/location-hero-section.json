@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_components_location_hero_sections",
+  "info": {
+    "displayName": "Location Inner Hero Section",
+    "icon": "repeat",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titleContentWithCta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-content-with-cta"
+    },
+    "storeNumber": {
+      "type": "blocks"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "relatedAddress": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    }
+  }
+}

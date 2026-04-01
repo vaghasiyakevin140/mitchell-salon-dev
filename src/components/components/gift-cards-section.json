@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_gift_cards_sections",
+  "info": {
+    "displayName": "Gift Cards Section",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "text"
+    },
+    "imageDescriptionImageWithLabel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-description-image-with-label"
+    }
+  }
+}

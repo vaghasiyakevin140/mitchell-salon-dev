@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_components_careers_discover_sections",
+  "info": {
+    "displayName": "Careers Discover Section",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "mainTitle": {
+      "type": "blocks"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.list"
+    }
+  }
+}

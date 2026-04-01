@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_atoms_review_with_video_blocks",
+  "info": {
+    "displayName": "Review With Video Block",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "reviewsWithVideoBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.reviews-with-video"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_components_salon_services",
+  "info": {
+    "displayName": "Salon Services",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "salon_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::salon-type.salon-type"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    }
+  }
+}

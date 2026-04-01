@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "test_sections",
+  "info": {
+    "singularName": "test-section",
+    "pluralName": "test-sections",
+    "displayName": "Test Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

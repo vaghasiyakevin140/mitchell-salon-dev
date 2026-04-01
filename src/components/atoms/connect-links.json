@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_atoms_connect_links",
+  "info": {
+    "displayName": "Connect Links",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "labelLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.label-links"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_components_careers_nail_training_sections",
+  "info": {
+    "displayName": "Careers Nail Training Section",
+    "icon": "cloud",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "repeatableTexts": {
+      "displayName": "Multi texts",
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.multi-texts"
+    },
+    "bottomDescription": {
+      "type": "blocks"
+    },
+    "mainTitle": {
+      "type": "blocks"
+    }
+  }
+}

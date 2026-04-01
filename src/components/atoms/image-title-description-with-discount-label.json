@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_atoms_image_title_description_with_discount_labels",
+  "info": {
+    "displayName": "Image Title Description With Discount Label",
+    "icon": "command"
+  },
+  "options": {},
+  "attributes": {
+    "discountLabel": {
+      "type": "blocks"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

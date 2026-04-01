@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "location_inners",
+  "info": {
+    "singularName": "location-inner",
+    "pluralName": "location-inners",
+    "displayName": "LocationInner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "components.location-info-section",
+        "components.location-hero-section",
+        "components.salon-services",
+        "components.related-location",
+        "components.location-map",
+        "components.amenities-section"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "isNewLocation": {
+      "type": "boolean"
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageDescription": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "locationHours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.hours"
+    },
+    "locationAddress": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.address"
+    }
+  }
+}

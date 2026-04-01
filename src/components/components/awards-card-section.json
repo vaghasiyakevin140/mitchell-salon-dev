@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_awards_card_sections",
+  "info": {
+    "displayName": "Awards Card Section",
+    "icon": "chartCircle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "awards_cards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::awards-card.awards-card"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_atoms_spa_offer_cards",
+  "info": {
+    "displayName": "Spa Offer Card",
+    "icon": "bell",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cardTitle": {
+      "type": "blocks"
+    }
+  }
+}

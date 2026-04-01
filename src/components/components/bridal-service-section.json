@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_components_bridal_service_sections",
+  "info": {
+    "displayName": "Bridal Service Section",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "informationText": {
+      "type": "blocks"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.button"
+    },
+    "serviceBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.services-block"
+    },
+    "bookingTermsAndCondition": {
+      "displayName": "bookingTermsAndCondition",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.booking-terms-and-condition"
+    }
+  }
+}

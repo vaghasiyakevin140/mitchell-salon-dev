@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_components_blogof_contents",
+  "info": {
+    "displayName": "BlogofContent",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "introducationText": {
+      "type": "blocks"
+    },
+    "startContent": {
+      "type": "blocks"
+    },
+    "middleText": {
+      "type": "blocks"
+    },
+    "relatedServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.related-blog-service"
+    },
+    "endText": {
+      "type": "blocks"
+    },
+    "blog_news_letter": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog-news-letter.blog-news-letter"
+    },
+    "articleCardList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.list"
+    },
+    "videoURL": {
+      "type": "text"
+    }
+  }
+}

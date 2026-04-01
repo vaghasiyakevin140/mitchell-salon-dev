@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_atoms_multi_texts",
+  "info": {
+    "displayName": "Multi texts",
+    "icon": "discuss"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

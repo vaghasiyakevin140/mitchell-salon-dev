@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "salon_types",
+  "info": {
+    "singularName": "salon-type",
+    "pluralName": "salon-types",
+    "displayName": "Salon Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "salonType": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "servicesTitle": {
+      "type": "string"
+    },
+    "servicesBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.list"
+    }
+  }
+}

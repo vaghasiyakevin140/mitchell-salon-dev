@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_atoms_price_giudes",
+  "info": {
+    "displayName": "Price Giude",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "price_guides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::price-guide.price-guide"
+    },
+    "noteGuide": {
+      "type": "blocks"
+    },
+    "price_table_heading": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::price-table-heading.price-table-heading"
+    }
+  }
+}

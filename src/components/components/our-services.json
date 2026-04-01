@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_components_our_services",
+  "info": {
+    "displayName": "Our Services",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "services": {
+      "displayName": "All Services",
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.all-services"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "sectionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "funkyText": {
+      "type": "blocks"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "services"
+      ]
+    }
+  }
+}

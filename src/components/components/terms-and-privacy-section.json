@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_terms_and_privacy_sections",
+  "info": {
+    "displayName": "Terms And Privacy Section",
+    "icon": "sun",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "updatedDate": {
+      "type": "date"
+    },
+    "introductionText": {
+      "type": "blocks"
+    },
+    "articleIndex": {
+      "type": "blocks"
+    },
+    "articleContent": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_components_title_description_image_with_cta_sections",
+  "info": {
+    "displayName": "Title Description Image with Cta Section",
+    "icon": "wheelchair",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "hasPopup": {
+      "type": "boolean"
+    }
+  }
+}

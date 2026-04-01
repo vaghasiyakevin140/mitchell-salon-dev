@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_atoms_experience_blocks",
+  "info": {
+    "displayName": "Experience Block",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "year": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

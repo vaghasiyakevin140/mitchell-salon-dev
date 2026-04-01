@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_atoms_hero_contents",
+  "info": {
+    "displayName": "Hero Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.button"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "heroTitle": {
+      "type": "blocks"
+    },
+    "bannerVariant": {
+      "type": "enumeration",
+      "enum": ["primary", "secondary"]
+    }
+  }
+}

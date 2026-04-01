@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_excellence_sections",
+  "info": {
+    "displayName": "Excellence Section",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "titleImageContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-image-block"
+    }
+  }
+}

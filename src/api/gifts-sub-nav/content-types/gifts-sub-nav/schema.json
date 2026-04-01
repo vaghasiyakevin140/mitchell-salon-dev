@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gifts_sub_navs",
+  "info": {
+    "singularName": "gifts-sub-nav",
+    "pluralName": "gifts-sub-navs",
+    "displayName": "Gifts SubNav"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titleImageLabelLInk": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-image-label-link-array"
+    }
+  }
+}

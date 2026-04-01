@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_atoms_title_label_links",
+  "info": {
+    "displayName": "TitleLabelLink",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  }
+}

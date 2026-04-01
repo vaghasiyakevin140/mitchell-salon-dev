@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_atoms_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "connector"
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "blocks"
+    }
+  }
+}

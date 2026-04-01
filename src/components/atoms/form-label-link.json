@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_atoms_form_label_links",
+  "info": {
+    "displayName": "formLabelLink",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "link": {
+      "type": "text"
+    }
+  }
+}

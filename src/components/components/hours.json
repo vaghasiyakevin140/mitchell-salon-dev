@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_hours",
+  "info": {
+    "displayName": "hours",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "timing": {
+      "displayName": "days",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.days"
+    }
+  }
+}

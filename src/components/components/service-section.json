@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_service_sections",
+  "info": {
+    "displayName": "Service Section",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "contact": {
+      "type": "blocks"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.button"
+    },
+    "block": {
+      "displayName": "Block Booking",
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.block-booking"
+    }
+  }
+}

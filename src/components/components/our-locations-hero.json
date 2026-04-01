@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_components_our_locations_heroes",
+  "info": {
+    "displayName": "Our Locations Hero",
+    "icon": "command",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "storesWithHoursTimeList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-description"
+    }
+  }
+}

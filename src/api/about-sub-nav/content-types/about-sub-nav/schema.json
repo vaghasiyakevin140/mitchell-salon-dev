@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_sub_navs",
+  "info": {
+    "singularName": "about-sub-nav",
+    "pluralName": "about-sub-navs",
+    "displayName": "About SubNav",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutSubNav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.footer-links"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

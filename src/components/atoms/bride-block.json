@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_atoms_bride_blocks",
+  "info": {
+    "displayName": "Bride Block",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Hair",
+        "Skin",
+        "Nails",
+        "Massage"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "funkyText": {
+      "type": "string"
+    },
+    "mainTitle": {
+      "type": "blocks"
+    }
+  }
+}

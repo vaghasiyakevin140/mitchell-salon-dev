@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_social_links",
+  "info": {
+    "displayName": "Links",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

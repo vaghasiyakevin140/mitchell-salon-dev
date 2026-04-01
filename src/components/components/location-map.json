@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_components_location_maps",
+  "info": {
+    "displayName": "Location Map",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "locationUrl": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_components_single_price_sections",
+  "info": {
+    "displayName": "Single Price Section",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "priceGuide": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.price-giude"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricing_table_tags",
+  "info": {
+    "singularName": "pricing-table-tag",
+    "pluralName": "pricing-table-tags",
+    "displayName": "Pricing Table Tags",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

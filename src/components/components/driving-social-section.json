@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_components_driving_social_sections",
+  "info": {
+    "displayName": "Driving Social Section",
+    "icon": "car",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "bridalServices",
+        "bridalBeautyPlaner",
+        "communityImpact"
+      ]
+    },
+    "featuresTitle": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.list"
+    }
+  }
+}

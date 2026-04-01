@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_atoms_title_image_blocks",
+  "info": {
+    "displayName": "titleImageBlock",
+    "icon": "filePdf"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "content": {
+      "type": "blocks"
+    }
+  }
+}

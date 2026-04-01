@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "socialLinks": {
+      "displayName": "Social Links",
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.social-links"
+    },
+    "bottomDescription": {
+      "type": "blocks"
+    },
+    "connectLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.label-links"
+    },
+    "footerLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "copyRightText": {
+      "type": "string"
+    },
+    "bottomLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.label-links"
+    },
+    "footerSubNavBlocks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::footer-sub-nav-block.footer-sub-nav-block"
+    },
+    "footerIcon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.image-label-link"
+    },
+    "bottomIcon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.image-label-link"
+    }
+  }
+}

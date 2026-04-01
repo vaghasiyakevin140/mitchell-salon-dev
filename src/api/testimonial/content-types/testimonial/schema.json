@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonials",
+  "info": {
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "Testimonial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::author.author"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "reviews": {
+      "type": "integer"
+    },
+    "package_inner": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::package-inner.package-inner",
+      "inversedBy": "testimonials"
+    }
+  }
+}

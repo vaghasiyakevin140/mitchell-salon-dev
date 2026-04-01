@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_components_hire_nail_tech_person_sections",
+  "info": {
+    "displayName": "Hire Nail Tech Person Section",
+    "icon": "folder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "locations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.simple-text"
+    },
+    "contentText": {
+      "type": "string"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "formPreferenceLocations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.simple-text"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

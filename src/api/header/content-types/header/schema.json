@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "navLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.header-link"
+    },
+    "contactNumber": {
+      "displayName": "imageLabelLink",
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.image-label-link"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "userIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

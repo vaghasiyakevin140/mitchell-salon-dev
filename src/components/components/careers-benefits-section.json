@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_careers_benefits_sections",
+  "info": {
+    "displayName": "Careers Benefits Section",
+    "icon": "train",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "iconWithTexts": {
+      "displayName": "IconTextBlock",
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.icon-text-block"
+    }
+  }
+}

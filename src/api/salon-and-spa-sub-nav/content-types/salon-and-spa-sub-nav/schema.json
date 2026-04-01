@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "salon_and_spa_sub_navs",
+  "info": {
+    "singularName": "salon-and-spa-sub-nav",
+    "pluralName": "salon-and-spa-sub-navs",
+    "displayName": "Salon and Spa SubNav",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titleWithImageLabelLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-with-image-label-link"
+    },
+    "labelLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.label-links"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

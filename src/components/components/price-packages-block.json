@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_price_packages_blocks",
+  "info": {
+    "displayName": "Price Packages Block",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "packagesBlock": {
+      "displayName": "Packages Block",
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.packages-block"
+    }
+  }
+}

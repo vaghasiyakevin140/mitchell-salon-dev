@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_atoms_title_with_image_label_links",
+  "info": {
+    "displayName": "Title With Image LabelLink",
+    "icon": "eye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageLabelLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.image-label-link"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

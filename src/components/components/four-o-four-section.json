@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_components_four_o_four_sections",
+  "info": {
+    "displayName": "Four O Four Section",
+    "icon": "priceTag"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

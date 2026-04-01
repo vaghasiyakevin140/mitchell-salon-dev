@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricing_packages",
+  "info": {
+    "singularName": "pricing-package",
+    "pluralName": "pricing-packages",
+    "displayName": "Pricing Package",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "pricePackages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.price-packages"
+    },
+    "bottomNote": {
+      "type": "text"
+    }
+  }
+}

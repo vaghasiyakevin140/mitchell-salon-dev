@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_atoms_title_texts",
+  "info": {
+    "displayName": "Title Text",
+    "icon": "command"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

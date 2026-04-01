@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "package_sun_navs",
+  "info": {
+    "singularName": "package-sun-nav",
+    "pluralName": "package-sun-navs",
+    "displayName": "Package SunNav"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageLabelLInk": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.image-label-link"
+    }
+  }
+}

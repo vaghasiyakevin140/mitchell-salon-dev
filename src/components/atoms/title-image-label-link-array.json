@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_atoms_title_image_label_link_arrays",
+  "info": {
+    "displayName": "Title Image Label Link Array",
+    "icon": "emotionHappy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "labelLInk": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.label-links"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

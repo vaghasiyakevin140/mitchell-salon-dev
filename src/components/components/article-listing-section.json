@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_components_article_listing_sections",
+  "info": {
+    "displayName": "Article Listing Section",
+    "icon": "server",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-inner.blog-inner"
+    }
+  }
+}

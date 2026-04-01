@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_components_booking_terms_and_conditions",
+  "info": {
+    "displayName": "bookingTermsAndCondition",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.list"
+    }
+  }
+}

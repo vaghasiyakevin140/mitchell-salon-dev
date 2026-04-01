@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_atoms_footer_links",
+  "info": {
+    "displayName": "Footer Links",
+    "icon": "command",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "labelLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.label-links"
+    },
+    "isColoum": {
+      "type": "enumeration",
+      "enum": [
+        "First",
+        "Second",
+        "Third",
+        "Fourth"
+      ]
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

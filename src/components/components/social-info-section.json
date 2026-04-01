@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_social_info_sections",
+  "info": {
+    "displayName": "Social Info Section",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "socialUserName": {
+      "type": "blocks"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

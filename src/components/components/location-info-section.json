@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_location_info_sections",
+  "info": {
+    "displayName": "Location Info Section",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "blocks"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

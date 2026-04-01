@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_atoms_forms",
+  "info": {
+    "displayName": "forms",
+    "icon": "filePdf"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "formLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.image-label-link"
+    }
+  }
+}

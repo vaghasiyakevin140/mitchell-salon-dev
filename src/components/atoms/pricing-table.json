@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_atoms_pricing_tables",
+  "info": {
+    "displayName": "Pricing Table",
+    "icon": "collapse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "serviceName": {
+      "type": "string"
+    },
+    "masterDesignerOrMasterNailTechnicianOrMasterEsthetician": {
+      "type": "float"
+    },
+    "salonDirectorOrNailDirectorOrEstheticianDirector": {
+      "type": "float"
+    },
+    "artisticDirectorOrArtisticNailDirector": {
+      "type": "float"
+    },
+    "seniorArtisticDirectorOrSeniorArtisticNailDirector": {
+      "type": "float"
+    },
+    "hasNew": {
+      "type": "boolean"
+    },
+    "designerOrNailTechnicianOrEsthetician": {
+      "type": "float"
+    },
+    "requiredNote": {
+      "type": "text"
+    },
+    "pricing_table_tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pricing-table-tag.pricing-table-tag"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_related_locations",
+  "info": {
+    "displayName": "Related Location",
+    "icon": "chartCircle"
+  },
+  "options": {},
+  "attributes": {
+    "moreLocations": {
+      "type": "blocks"
+    },
+    "location_inners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location-inner.location-inner"
+    }
+  }
+}

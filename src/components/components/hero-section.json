@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_hero_sections",
+  "info": {
+    "displayName": "Hero Section",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heroContent": {
+      "displayName": "Hero Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.hero-content"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_atoms_price_packages",
+  "info": {
+    "displayName": "Price Packages",
+    "icon": "envelop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "packagesNote": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "timings": {
+      "type": "string"
+    },
+    "prices": {
+      "type": "float"
+    },
+    "priceRange": {
+      "type": "string"
+    },
+    "perPerson": {
+      "type": "boolean"
+    }
+  }
+}

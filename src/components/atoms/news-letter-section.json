@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_atoms_news_letter_sections",
+  "info": {
+    "displayName": "News Letter Section",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "sectionTitle": {
+      "type": "string"
+    }
+  }
+}

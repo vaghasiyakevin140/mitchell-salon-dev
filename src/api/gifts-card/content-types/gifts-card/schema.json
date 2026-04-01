@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gifts_cards",
+  "info": {
+    "singularName": "gifts-card",
+    "pluralName": "gifts-cards",
+    "displayName": "Gifts Card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "priceTag": {
+      "type": "decimal"
+    },
+    "certificateText": {
+      "type": "string"
+    },
+    "funkyText": {
+      "type": "string"
+    },
+    "websiteLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.label-links"
+    },
+    "color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "textColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

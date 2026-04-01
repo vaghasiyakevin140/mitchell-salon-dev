@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_atoms_icon_text_blocks",
+  "info": {
+    "displayName": "IconTextBlock",
+    "icon": "slideshow"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "texts": {
+      "type": "string"
+    }
+  }
+}

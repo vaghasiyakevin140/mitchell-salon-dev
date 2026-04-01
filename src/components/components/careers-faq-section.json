@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_careers_faq_sections",
+  "info": {
+    "displayName": "Careers FAQ Section",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.faq"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "isCareer"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_components_careers_salon_program_sections",
+  "info": {
+    "displayName": "Careers Salon Program Section",
+    "icon": "stack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "blocks"
+    },
+    "faq": {
+      "displayName": "FAQ",
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.faq"
+    },
+    "bottomText": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "blocks"
+    }
+  }
+}

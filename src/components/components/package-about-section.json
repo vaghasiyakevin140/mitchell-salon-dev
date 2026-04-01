@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_package_about_sections",
+  "info": {
+    "displayName": "Package About Section",
+    "icon": "cup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "titleDescription": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-description"
+    }
+  }
+}

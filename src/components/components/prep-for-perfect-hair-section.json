@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_prep_for_perfect_hair_sections",
+  "info": {
+    "displayName": "Prep For Perfect Hair Section",
+    "icon": "restaurant"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "iconTextBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.icon-text-block"
+    }
+  }
+}

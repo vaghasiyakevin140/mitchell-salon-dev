@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_components_price_guide_sections",
+  "info": {
+    "displayName": "Price Guide Section",
+    "icon": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "priceGuide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.price-giude"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "men_pricings",
+  "info": {
+    "singularName": "men-pricing",
+    "pluralName": "men-pricings",
+    "displayName": "Men Pricing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "designerPrice": {
+      "type": "decimal"
+    },
+    "masterDesignerPrice": {
+      "type": "decimal"
+    },
+    "salonDirectorPrice": {
+      "type": "decimal"
+    },
+    "artisticDirector": {
+      "type": "decimal"
+    },
+    "seniorArtisticDirectorPrice": {
+      "type": "decimal"
+    },
+    "requiredNote": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_atoms_sub_navs",
+  "info": {
+    "displayName": "Sub Nav",
+    "icon": "arrowLeft",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "salonAndSpa": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::salon-and-spa-sub-nav.salon-and-spa-sub-nav"
+    },
+    "brides_sub_nav": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::brides-sub-nav.brides-sub-nav"
+    },
+    "about_sub_nav": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::about-sub-nav.about-sub-nav"
+    },
+    "package_sun_nav": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::package-sun-nav.package-sun-nav"
+    },
+    "gifts_sub_nav": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::gifts-sub-nav.gifts-sub-nav"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_atoms_simple_texts",
+  "info": {
+    "displayName": "simpleText"
+  },
+  "options": {},
+  "attributes": {
+    "string": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_atoms_footer_sub_nav_links",
+  "info": {
+    "displayName": "Footer Sub Nav Links",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "hasNewLocation": {
+      "type": "boolean"
+    }
+  }
+}

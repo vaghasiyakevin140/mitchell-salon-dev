@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_atoms_image_title_description_with_price_labels",
+  "info": {
+    "displayName": "Image Title Description With Price Label",
+    "icon": "store",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "priceTag": {
+      "type": "string"
+    }
+  }
+}

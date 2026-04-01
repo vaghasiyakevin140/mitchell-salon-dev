@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_your_career_sections",
+  "info": {
+    "displayName": "Your Career Section",
+    "icon": "chartPie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "blocks"
+    },
+    "careers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::career.career"
+    }
+  }
+}

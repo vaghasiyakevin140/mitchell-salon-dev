@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_card_listening_sections",
+  "info": {
+    "displayName": "Card Listening Section",
+    "icon": "database",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_components_recommended_timeline_sections",
+  "info": {
+    "displayName": "Recommended Timeline Section",
+    "icon": "slideshow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titleDescription": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-description"
+    }
+  }
+}

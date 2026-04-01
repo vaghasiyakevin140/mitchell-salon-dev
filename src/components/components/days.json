@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_days",
+  "info": {
+    "displayName": "days",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "day": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}

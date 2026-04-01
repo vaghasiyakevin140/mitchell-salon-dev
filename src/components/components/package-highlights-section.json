@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_package_highlights_section_s",
+  "info": {
+    "displayName": "Package Highlights Section ",
+    "icon": "television",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imagetitleBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-image-block"
+    }
+  }
+}

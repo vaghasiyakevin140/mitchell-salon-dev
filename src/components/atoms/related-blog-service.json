@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_atoms_related_blog_services",
+  "info": {
+    "displayName": "Related Blog Service",
+    "icon": "command"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "priceTag": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

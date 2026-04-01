@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_article_relateds",
+  "info": {
+    "displayName": "Article Related",
+    "icon": "shoppingCart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blog_inners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-inner.blog-inner"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

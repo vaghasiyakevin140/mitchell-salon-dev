@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_atoms_block_bookings",
+  "info": {
+    "displayName": "Block Booking",
+    "icon": "chartPie"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "bride_services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::bride-service.bride-service"
+    },
+    "notes": {
+      "type": "text"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "bookTitle": {
+      "type": "blocks"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "bulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.list"
+    }
+  }
+}

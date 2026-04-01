@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_blog_listing_heroes",
+  "info": {
+    "displayName": "Blog Listing Hero",
+    "icon": "rocket"
+  },
+  "options": {},
+  "attributes": {
+    "blog_inner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog-inner.blog-inner"
+    }
+  }
+}

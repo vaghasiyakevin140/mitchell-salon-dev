@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_atoms_title_description_image_with_labels",
+  "info": {
+    "displayName": "Title Description Image with Label",
+    "icon": "envelop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "funkyText": {
+      "type": "blocks"
+    }
+  }
+}

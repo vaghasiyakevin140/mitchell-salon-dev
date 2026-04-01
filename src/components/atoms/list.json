@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_atoms_lists",
+  "info": {
+    "displayName": "list",
+    "icon": "bell",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "text": {
+      "type": "blocks"
+    }
+  }
+}

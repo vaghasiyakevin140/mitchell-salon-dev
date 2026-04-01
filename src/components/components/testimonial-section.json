@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_components_testimonial_sections",
+  "info": {
+    "displayName": "Testimonial Section",
+    "icon": "collapse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "cTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    }
+  }
+}

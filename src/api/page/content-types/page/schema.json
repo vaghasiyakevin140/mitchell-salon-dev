@@ -1,0 +1,97 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "components.testimonial-section",
+        "components.spa-offer-card",
+        "components.our-services",
+        "components.gift-cards-section",
+        "components.book-now",
+        "components.awards-card-section",
+        "components.about-us",
+        "components.common-hero-section",
+        "components.experience-section",
+        "components.excellence-section",
+        "components.social-info-section",
+        "components.reviews-section",
+        "components.hero-section",
+        "components.careers-family-section",
+        "components.careers-connection-section",
+        "components.careers-salon-program-section",
+        "components.careers-nail-training-section",
+        "components.careers-benefits-section",
+        "components.careers-discover-section",
+        "components.careers-faq-section",
+        "components.your-career-section",
+        "components.contact-us-section",
+        "components.communities-section",
+        "components.driving-social-section",
+        "components.join-us-section",
+        "components.article-listing-section",
+        "components.hero-banner",
+        "components.card-listening-section",
+        "components.price-guide-section",
+        "components.title-description-image-with-cta-section",
+        "components.corporate-discount-programme-section",
+        "components.mitchell-services-section",
+        "components.military-and-donation-section",
+        "components.men-pricing-section",
+        "components.salon-pricing",
+        "components.price-packages-block",
+        "components.beautiful-brides-section",
+        "components.bridal-service-section",
+        "components.recommended-timeline-section",
+        "components.prep-for-perfect-hair-section",
+        "components.recommendations-recap-section",
+        "components.more-beauty-packages-section",
+        "components.holiday-section",
+        "components.stores-section",
+        "components.location-map",
+        "components.four-o-four-section",
+        "components.terms-and-privacy-section",
+        "components.category",
+        "components.our-locations-hero",
+        "components.blog-hero",
+        "components.blog-listing-hero",
+        "components.blog-listing-section",
+        "components.single-price-section",
+        "components.release-forms",
+        "components.hire-nail-tech-person-section",
+        "components.location-gallery-section",
+        "components.service-section",
+        "components.image-description"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

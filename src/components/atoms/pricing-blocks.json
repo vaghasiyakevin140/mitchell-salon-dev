@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_atoms_pricing_blocks",
+  "info": {
+    "displayName": "Pricing blocks",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "price_tables": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::price-table.price-table"
+    },
+    "title": {
+      "type": "string"
+    },
+    "sectionColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "price_table_heading": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::price-table-heading.price-table-heading"
+    }
+  }
+}

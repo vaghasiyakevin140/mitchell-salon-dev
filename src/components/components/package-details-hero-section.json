@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_components_package_details_hero_sections",
+  "info": {
+    "displayName": "Package Details Hero Section",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "priceTag": {
+      "type": "decimal"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "inDetailView"
+      ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Full Day",
+        "Half Day",
+        "Time Together",
+        "Spa"
+      ]
+    }
+  }
+}

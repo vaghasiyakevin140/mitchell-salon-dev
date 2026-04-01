@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_inners",
+  "info": {
+    "singularName": "blog-inner",
+    "pluralName": "blog-inners",
+    "displayName": "Blog Inner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "blog_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog-category.blog-category"
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageDescription": {
+      "type": "string"
+    },
+    "publishDate": {
+      "type": "date"
+    },
+    "blogHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.blog-hero"
+    },
+    "articalRelated": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.article-related"
+    },
+    "bookNow": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.book-now"
+    },
+    "blogofContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.blogof-content"
+    },
+    "authorConclusion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.author-conclusion"
+    },
+    "shareText": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

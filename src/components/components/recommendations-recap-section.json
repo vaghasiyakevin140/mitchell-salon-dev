@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_recommendations_recap_sections",
+  "info": {
+    "displayName": "Recommendations Recap Section",
+    "icon": "rocket",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "brideBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.bride-block"
+    }
+  }
+}

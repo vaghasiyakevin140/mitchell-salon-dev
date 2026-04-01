@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_package_testimonials",
+  "info": {
+    "displayName": "Package Testimonial",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
+    }
+  }
+}

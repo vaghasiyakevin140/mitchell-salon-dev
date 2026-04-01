@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_atoms_footer_sub_links",
+  "info": {
+    "displayName": "Footer Sub Links"
+  },
+  "options": {},
+  "attributes": {
+    "footerSubLInks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.footer-sub-nav-links"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_holiday_sections",
+  "info": {
+    "displayName": "Holiday Gift Card Section",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "gifts_cards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::gifts-card.gifts-card"
+    }
+  }
+}

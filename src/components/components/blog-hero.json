@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_components_blog_heroes",
+  "info": {
+    "displayName": "Blog Hero",
+    "icon": "shield"
+  },
+  "options": {},
+  "attributes": {
+    "blogTitle": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "text"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::author.author"
+    }
+  }
+}

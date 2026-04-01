@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_components_beautiful_brides_sections",
+  "info": {
+    "displayName": "Beautiful Brides Section",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "bridalImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "funkyText": {
+      "type": "string"
+    }
+  }
+}

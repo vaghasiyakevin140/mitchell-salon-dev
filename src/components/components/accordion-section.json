@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_accordion_sections",
+  "info": {
+    "displayName": "Accordion Section",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "Accordion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-description-accordian"
+    }
+  }
+}

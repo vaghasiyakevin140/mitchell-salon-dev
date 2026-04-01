@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_military_and_donation_sections",
+  "info": {
+    "displayName": "Military and Donation Section",
+    "icon": "twitter"
+  },
+  "options": {},
+  "attributes": {
+    "leftContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.image-title-description-with-discount-label"
+    },
+    "rightSideContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.image-title-description-with-discount-label"
+    }
+  }
+}

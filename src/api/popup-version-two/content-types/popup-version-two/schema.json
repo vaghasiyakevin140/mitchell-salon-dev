@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "popup_version_twos",
+  "info": {
+    "singularName": "popup-version-two",
+    "pluralName": "popup-version-twos",
+    "displayName": "Popup Version Two",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "discountText": {
+      "type": "blocks"
+    },
+    "date": {
+      "type": "time"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_components_corporate_discount_programme_sections",
+  "info": {
+    "displayName": "Corporate Discount Programme Section",
+    "icon": "puzzle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "employTitle": {
+      "type": "string"
+    },
+    "discountContent": {
+      "type": "blocks"
+    },
+    "inquiries": {
+      "type": "blocks"
+    },
+    "imagePartnerOne": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imagePartnerSecond": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

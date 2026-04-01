@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_components_blog_listing_sections",
+  "info": {
+    "displayName": "Blog Listing Section"
+  },
+  "options": {},
+  "attributes": {
+    "blog_inners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-inner.blog-inner"
+    }
+  }
+}

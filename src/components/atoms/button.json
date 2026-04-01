@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_atoms_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "arrowRight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "text"
+    },
+    "kind": {
+      "type": "enumeration",
+      "enum": [
+        "withArrow",
+        "white",
+        "black",
+        "withUnderline",
+        "lightGreen",
+        "darkIvory"
+      ]
+    },
+    "isExternal": {
+      "type": "boolean"
+    },
+    "hasPopup": {
+      "type": "boolean"
+    }
+  }
+}

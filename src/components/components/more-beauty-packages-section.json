@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_more_beauty_packages_sections",
+  "info": {
+    "displayName": "More Beauty Packages Section",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "packageBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.image-title-link"
+    }
+  }
+}

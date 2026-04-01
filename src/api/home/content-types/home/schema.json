@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pagetitle": {
+      "type": "string"
+    },
+    "pageDescription": {
+      "type": "string"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "components.testimonial-section",
+        "components.spa-offer-card",
+        "components.our-services",
+        "components.hero-section",
+        "components.gift-cards-section",
+        "components.book-now",
+        "components.awards-card-section",
+        "components.about-us"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

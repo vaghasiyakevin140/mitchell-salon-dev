@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "packages_sub_pages",
+  "info": {
+    "singularName": "packages-sub-page",
+    "pluralName": "packages-sub-pages",
+    "displayName": "Packages Sub Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "components.common-hero-section",
+        "components.category",
+        "components.more-beauty-packages-section"
+      ]
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageDescription": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

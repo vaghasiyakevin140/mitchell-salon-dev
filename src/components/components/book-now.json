@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_components_book_nows",
+  "info": {
+    "displayName": "Book Now",
+    "icon": "command",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "text"
+    },
+    "leftSideImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rightSideImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "funkyText": {
+      "type": "blocks"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "rightSideDescription": {
+      "type": "blocks"
+    },
+    "varient": {
+      "type": "enumeration",
+      "enum": [
+        "giftPage",
+        "brides",
+        "blog",
+        "service",
+        "blogInner"
+      ]
+    },
+    "rightSideSectionTitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_addresses",
+  "info": {
+    "displayName": "address",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_experience_sections",
+  "info": {
+    "displayName": "Experience Section",
+    "icon": "discuss",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "experienceBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.experience-block"
+    }
+  }
+}

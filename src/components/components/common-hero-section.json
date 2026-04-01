@@ -1,0 +1,78 @@
+{
+  "collectionName": "components_components_common_hero_sections",
+  "info": {
+    "displayName": "Common Hero Section",
+    "icon": "crop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "label": {
+      "type": "blocks"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "contactUs",
+        "communityImpact",
+        "hairColoring",
+        "savings",
+        "price-guide",
+        "motherGiftCard",
+        "packages",
+        "careers",
+        "service",
+        "aboutUs"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "videoThumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

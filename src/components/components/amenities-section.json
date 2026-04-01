@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_amenities_sections",
+  "info": {
+    "displayName": "Amenities Section",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.simple-text"
+    },
+    "rightFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-description-accordian"
+    }
+  }
+}

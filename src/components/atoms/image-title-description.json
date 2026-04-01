@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_atoms_image_title_descriptions",
+  "info": {
+    "displayName": "Image Title Description",
+    "icon": "cloud",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "price_guides",
+  "info": {
+    "singularName": "price-guide",
+    "pluralName": "price-guides",
+    "displayName": "Price Guide",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "designerPrice": {
+      "type": "decimal"
+    },
+    "masterDesignerPrice": {
+      "type": "decimal"
+    },
+    "salonDirectorPrice": {
+      "type": "decimal"
+    },
+    "artisticDirector": {
+      "type": "decimal"
+    },
+    "seniorArtisticDirectorPrice": {
+      "type": "decimal"
+    },
+    "hasNew": {
+      "type": "boolean"
+    },
+    "requiredNote": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "pricing_table_tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pricing-table-tag.pricing-table-tag"
+    }
+  }
+}

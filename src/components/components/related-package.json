@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_components_related_packages",
+  "info": {
+    "displayName": "Related Package",
+    "icon": "feather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "package_inners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::package-inner.package-inner"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "spaSubPages"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    }
+  }
+}

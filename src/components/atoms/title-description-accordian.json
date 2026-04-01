@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_atoms_title_description_accordians",
+  "info": {
+    "displayName": "Title Description Accordian",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "price_table_headings",
+  "info": {
+    "singularName": "price-table-heading",
+    "pluralName": "price-table-headings",
+    "displayName": "Price Table Heading"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.list"
+    },
+    "color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

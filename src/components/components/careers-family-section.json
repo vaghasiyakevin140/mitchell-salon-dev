@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_components_careers_family_sections",
+  "info": {
+    "displayName": "Careers Family Section",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "bottomText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "funkyText": {
+      "type": "string"
+    }
+  }
+}

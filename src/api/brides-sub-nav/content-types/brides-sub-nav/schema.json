@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brides_sub_navs",
+  "info": {
+    "singularName": "brides-sub-nav",
+    "pluralName": "brides-sub-navs",
+    "displayName": "Brides SubNav"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageLabelLInk": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.image-label-link"
+    }
+  }
+}
